@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/display.css";
+@import "~@ionic/angular/css/typography.css";
+@import "~@ionic/angular/css/normalize.css";
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/static/Nunito-Regular.ttf');
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+}
+
+:root {
+    --ion-default-font: Nunito, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    --ion-font-family: Nunito, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --ion-background-color: #fef5f2;
+    --ion-background-color-rgb: 254, 245, 242;
+
+    --ion-color-primary: #f2552c;
+    --ion-color-primary-shade: #f2552c;
+    --ion-color-primary-shade:#f2552c;
+    --ion-color-primary-tint: #f27745;
+
+    --ion-text-color: #000000;
+    --ion-text-color-rgb: 0, 0, 0;
+
+    --ion-color-step-50: #f1e9e6;
+    --ion-color-step-100: #e5ddda;
+    --ion-color-step-150: #d8d0ce;
+    --ion-color-step-200: #cbc4c2;
+    --ion-color-step-250: #bfb8b6;
+    --ion-color-step-300: #b2aca9;
+    --ion-color-step-350: #a59f9d;
+    --ion-color-step-400: #989391;
+    --ion-color-step-450: #8c8785;
+    --ion-color-step-500: #7f7b79;
+    --ion-color-step-550: #726e6d;
+    --ion-color-step-600: #666261;
+    --ion-color-step-650: #595655;
+    --ion-color-step-700: #4c4a49;
+    --ion-color-step-750: #403d3d;
+    --ion-color-step-800: #333130;
+    --ion-color-step-850: #262524;
+    --ion-color-step-900: #191818;
+    --ion-color-step-950: #0d0c0c;
+}
+
+p {
+  font-size: 20px;
+}
+
+[contenteditable] {
+  outline: none;
+}

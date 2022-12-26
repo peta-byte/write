@@ -1,1 +1,23 @@
-<write-nx-welcome></write-nx-welcome>
+<ion-app>
+  <ion-header>
+    <ion-toolbar color="primary" mode="ios">
+      <ion-title>Write</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-content>
+      <ion-router-outlet></ion-router-outlet>
+      <ion-tabs>
+          <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="write">
+              <ion-icon name="pencil"></ion-icon>
+              <ion-label>Write</ion-label>
+            </ion-tab-button>
+          </ion-tab-bar>
+      </ion-tabs>
+    </ion-content>
+    <ion-footer>
+      <ion-toolbar color="primary" mode="ios">
+        <ion-title>By Brenda Chepkorir © 2022</ion-title>
+      </ion-toolbar>
+    </ion-footer>
+</ion-app>

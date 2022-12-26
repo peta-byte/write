@@ -1,0 +1,9 @@
+<ion-content [fullscreen]="true">
+  <div id="content" class="content">
+  <ion-list>
+    <ion-item lines="none"><h1 id="title" class="title" contenteditable="true" (keyup)="onTitleKeyUp($event)" (keydown)="onKeyDown($event)" placeholder="Title"></h1></ion-item>
+    <ion-item lines="none"><h2 id="subtitle" class="subtitle" contenteditable="true" (keyup)="onSubTitleKeyUp($event)" (keydown)="onKeyDown($event)" placeholder="Subtitle"></h2></ion-item>
+    <ion-item *ngFor="let p of paragraphs; let idx=index" lines="none"><write-paragraph [idx]="idx" [(text)]="p.value" [id]="idx" (removeParagraph)="removeParagraph(idx)" (addParagraph)="addParagraph(idx)"></write-paragraph></ion-item>
+  </ion-list>
+  </div>
+</ion-content>
