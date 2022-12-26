@@ -25,7 +25,7 @@ import { ParagraphComponent } from './write/paragraph/paragraph.component';
   ],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    { provide: APP_BASE_HREF, useValue: '/' }
+    { provide: APP_BASE_HREF, useValue: '/tool' }
   ],
   bootstrap: [AppComponent],
 })
