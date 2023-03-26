@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1bb8c147-4756-4fe8-9c4a-6719df43ca47/deploy-status)](https://peta-byte-write.netlify.app/tool/write)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1bb8c147-4756-4fe8-9c4a-6719df43ca47/deploy-status)](https://peta-byte-write.netlify.app)
 <h2>Write</h2
 
 <p>One page at a time.</p>
