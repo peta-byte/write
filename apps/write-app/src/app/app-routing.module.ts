@@ -5,12 +5,14 @@ import { WriteContentComponent } from './write/write-content.component';
 const routes: Routes = [
   {
     path: 'write',
-    component: WriteContentComponent
+    component: WriteContentComponent,
+    title: 'Write'
   },
   {
     path: '',
     redirectTo: 'write',
-    pathMatch: 'full'
+    pathMatch: 'full',
+    title: ''
   }
 ];
 
